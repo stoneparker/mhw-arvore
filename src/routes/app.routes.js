@@ -1,5 +1,4 @@
 import React from 'react';
-import { Image, View, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Feather } from '@expo/vector-icons';
@@ -36,9 +35,9 @@ const Routes = () => {
                name="Home" 
                component={Home} 
                options={{ 
-                  header: (props) => (
+                  header: () => (
                      <HomeHeader />
-                  )
+                  ),
                }} 
             />
             <AppStack.Screen name="Themes" component={Themes} />

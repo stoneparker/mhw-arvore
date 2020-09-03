@@ -1,10 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { FredokaOne_400Regular, Ubuntu_400Regular, Ubuntu_700Bold, useFonts } from '@expo-google-fonts/dev';
+import { AppLoading } from 'expo';
 
 import Routes from './src/routes/app.routes';
 
 export default function App() {
+
+  let [fontsLoaded] = useFonts({
+    FredokaOne_400Regular,
+    Ubuntu_400Regular,
+    Ubuntu_700Bold
+  })
+
+  if (!fontsLoaded) {
+    return <AppLoading />
+  }
+
+
   return (
     <>
       <StatusBar style="auto" />
@@ -12,12 +25,3 @@ export default function App() {
     </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
