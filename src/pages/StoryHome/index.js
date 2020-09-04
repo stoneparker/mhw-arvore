@@ -1,6 +1,5 @@
 import React from 'react';
-import { Text, ScrollView } from 'react-native';
-import { useRoute } from '@react-navigation/native';
+import { useRoute, useNavigation } from '@react-navigation/native';
 
 import PrimaryBtn from '../../components/PrimaryBtn';
 
@@ -15,11 +14,14 @@ import {
 
 const StoryHome = () => {
    const route = useRoute();
+   const { navigate } = useNavigation();
 
    const { script } = route.params;
 
+   const pages = script.pages;
+
    function handleNavigateToStory() {
-      alert('teste');
+      navigate('Story', { pages });
    }
 
    return (

@@ -6,6 +6,8 @@ import { Feather } from '@expo/vector-icons';
 import Home from '../pages/Home';
 import Scripts from '../pages/Scripts';
 import StoryHome from '../pages/StoryHome';
+import Story from '../pages/Story';
+import Reward from '../pages/Reward';
 
 import HomeHeader from '../components/HomeHeader';
 import BtnHeader from '../components/BtnHeader';
@@ -43,6 +45,8 @@ const Routes = () => {
             />
             <AppStack.Screen name="Scripts" component={Scripts} />
             <AppStack.Screen name="StoryHome" component={StoryHome} />
+            <AppStack.Screen name="Story" component={Story} />
+            <AppStack.Screen name="Reward" component={Reward} options={{ headerShown: false }} />
          </AppStack.Navigator>
       </NavigationContainer>
 
