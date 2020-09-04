@@ -20,7 +20,7 @@ const Home = () => {
    const { navigate } = useNavigation();
 
    function navigateToThemes() {
-      navigate('Themes');
+      navigate('Scripts');
    }
 
    return (

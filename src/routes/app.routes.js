@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { Feather } from '@expo/vector-icons';
 
 import Home from '../pages/Home';
-import Themes from '../pages/Themes';
+import Scripts from '../pages/Scripts';
 
 import HomeHeader from '../components/HomeHeader';
 import BtnHeader from '../components/BtnHeader';
@@ -40,7 +40,7 @@ const Routes = () => {
                   ),
                }} 
             />
-            <AppStack.Screen name="Themes" component={Themes} />
+            <AppStack.Screen name="Scripts" component={Scripts} />
          </AppStack.Navigator>
       </NavigationContainer>
 
