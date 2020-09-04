@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 import { 
    Container,
@@ -11,26 +11,28 @@ import {
 } from './styles';
 
 const ScriptCard = (props) => {
+   const { navigate } = useNavigation();
+   const { script } = props;
 
-   function handleNavigateToStory(id) {
-      alert('oi')
+   function handleNavigateToStoryHome(id) {
+      if (id === 2) navigate('StoryHome', { script });
    }
 
    return (
       <Container 
-         color={props.color_theme} 
-         onPress={() => handleNavigateToStory(props.id)}
+         color={script.color_theme} 
+         onPress={() => handleNavigateToStoryHome(script.id)}
       >
          <ScriptImg 
-            source={props.image_path}
+            source={script.image_path}
             resizeMode="contain"
          />
          <ScriptInfos>
             <Description>
-               {props.description}
+               {script.description}
             </Description>
             <Tags>
-               {props.tags.map((item) => (
+               {script.tags.map((item) => (
                   <Tag 
                      key={item.tag_name}
                      color={item.tag_color}

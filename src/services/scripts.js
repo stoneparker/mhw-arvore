@@ -14,6 +14,7 @@ const stories = [
             tag_color: '#FFD0F5'
          }
       ],
+      synopsis: 'Uma criança está se sentindo muito triste porque não tem amigos. Como seu cachorrinho pode ajudar?',
    },
 
    {
@@ -31,6 +32,7 @@ const stories = [
             tag_color: '#D0DDFF'
          }
       ],
+      synopsis: 'Uma criança está se sentindo muito triste porque não tem amigos. Como seu cachorrinho pode ajudar?',
    },
 
    {
@@ -48,6 +50,7 @@ const stories = [
             tag_color: '#EAD0FF'
          }
       ],
+      synopsis: 'Uma criança está se sentindo muito triste porque não tem amigos. Como seu cachorrinho pode ajudar?',
    },
 ];
 

@@ -34,13 +34,7 @@ const Scripts = () => {
           keyExtractor={story => String(story.id)}
           contentContainerStyle={{ alignItems: 'center', width: '100%', paddingTop: 20 }}
           renderItem={({ item }) => (
-            <ScriptCard
-              description={item.description}
-              color_theme={item.color_theme}
-              image_path={item.image_path}
-              tags={item.tags}
-              id={item.id}
-            />
+            <ScriptCard script={item} />
           )}
         />
       </Container>
