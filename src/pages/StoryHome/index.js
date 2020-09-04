@@ -33,7 +33,7 @@ const StoryHome = () => {
             <Label>Dê um nome para essa história</Label>
             <Input placeholder="Seu título incrível" />
 
-            <PrimaryBtn onPress={handleNavigateToStory} />
+            <PrimaryBtn text="Começar a aventura!" onPress={handleNavigateToStory} />
          </Content>
       </Container>
    );

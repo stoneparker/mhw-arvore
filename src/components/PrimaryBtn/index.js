@@ -6,7 +6,7 @@ import { Container, IconContainer, Label } from './styles';
 const PrimaryBtn = (props) => {
    return (
       <Container onPress={props.onPress}>
-         <Label>Começar a aventura!</Label>
+         <Label>{props.text}</Label>
          <IconContainer>
             <Feather name="arrow-right" size={25} color="#fff" />
          </IconContainer>
