@@ -1,5 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import { AppLoading } from 'expo';
+import { StatusBar } from 'expo-status-bar';
 import { 
   FredokaOne_400Regular, 
   Ubuntu_400Regular, 
@@ -8,7 +9,6 @@ import {
   Nunito_700Bold,
   useFonts,
 } from '@expo-google-fonts/dev';
-import { AppLoading } from 'expo';
 
 import Routes from './src/routes/app.routes';
 

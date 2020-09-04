@@ -33,5 +33,5 @@ export const OptionBtnText = styled.Text`
    font-size: 15px;
    color: #3D3D3D;
    text-align: center;
-   font-family: Ubuntu_400Regular;
+   font-family: Nunito_400Regular;
 `;
