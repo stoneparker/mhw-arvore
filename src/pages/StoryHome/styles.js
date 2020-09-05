@@ -1,45 +1,46 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
-   flex: 1;
-   background: #FFDB1D;
+export const Title = styled.Text`
+   font-family: Ubuntu_700Bold;
+   font-size: 25px;
+   color: #282828;
+   margin-bottom: 6px;
 `;
 
-export const Cover = styled.View`
-   width: 100%;
-   height: 35%;
-   background: #FFDB1D;
+export const Author = styled.Text`
+   font-family: Ubuntu_400Regular;
+   font-size: 18px;
+   color: #9A9A9A;
+   margin-bottom: 25px;
 `;
 
-export const Content = styled.View`
-   background: #fff;
-   flex: 1;
-   border-top-left-radius: 60px;
-   border-top-right-radius: 60px;
-   padding: 40px;
-   align-items: center;
-`;
-
-export const Synopsis = styled.Text`
-   text-align: center;
-   /* font-family: Ubuntu_400Regular; */
+export const Preview = styled.Text`
+   font-family: Nunito_400Regular;
    font-size: 17px;
    color: #4A4A4A;
+   text-align: center;
    margin-bottom: 30px;
 `;
 
-export const Label = styled.Text`
-   font-family: Ubuntu_700Bold;
-   font-size: 16px;
-   color: #2B2B2B;
-   margin-bottom: 15px;
-`;
-
-export const Input = styled.TextInput`
-   border: 1px solid #C8C8C8;
-   border-radius: 6px;
-   padding: 12px 10px;
+export const AgeContainer = styled.View`
+   position: absolute;
+   top: -22.5px;
    width: 100%;
-   font-size: 15px;
-   margin-bottom: 30px;
+   flex-direction: row-reverse;
+`;
+
+export const AgeContent = styled.View`
+   background: #F8B118;
+   width: 50px;
+   height: 50px;
+   border-radius: 30px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+`;
+
+export const Age = styled.Text`
+   font-weight: bold;
+   color: #525252;
+   font-size: 23px;
 `;

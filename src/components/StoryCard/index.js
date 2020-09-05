@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigation } from '@react-navigation/native';
 
 import { 
    Container,
@@ -12,21 +13,28 @@ import {
 } from './styles';
 
 const StoryCard = (props) => {
+   const { navigate } = useNavigation();
+   const { story } = props;
+
+   function navigateToStory(id) {
+      if (id === 3) navigate('StoryHome', { story });
+   }
+
    return (
-      <Container>
-         <Header color={props.color_theme}>
+      <Container onPress={() => navigateToStory(story.id)}>
+         <Header color={story.color_theme}>
             <Illustration 
-               source={props.image_path} 
+               source={story.image_path} 
                resizeMode="contain"
             />
          </Header>
          <Infos>
-            <Title>{props.title}</Title>
-            <Author>{props.author}</Author>
+            <Title>{story.title}</Title>
+            <Author>{story.author}</Author>
          </Infos>
 
          <AgeContainer>
-            <Age>{props.age}</Age>
+            <Age>{story.age}</Age>
          </AgeContainer>
       </Container>
    );

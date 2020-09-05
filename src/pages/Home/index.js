@@ -23,6 +23,10 @@ const Home = () => {
       navigate('Scripts');
    }
 
+   function navigateToYourStories() {
+      navigate('YourStories');
+   }
+
    return (
       <ScrollView 
          style={{ flex: 1 }}
@@ -39,7 +43,7 @@ const Home = () => {
                      Crie uma história!
                   </MainCardTitle>
                </MainCard>
-               <MainCard color="#F27C73">
+               <MainCard color="#F27C73" onPress={navigateToYourStories}>
                   <MainCardTitle>
                      Suas histórias
                   </MainCardTitle>
@@ -59,13 +63,7 @@ const Home = () => {
                numColumns={2}
                contentContainerStyle={{ padding: 10 }}
                renderItem={({ item }) => (
-                  <StoryCard
-                     title={item.title}
-                     author={item.author}
-                     color_theme={item.color_theme}
-                     age={item.age}
-                     image_path={item.image_path}
-                  />
+                  <StoryCard story={item} />
                )}
             />
          </Container>

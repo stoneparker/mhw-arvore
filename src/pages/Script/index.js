@@ -6,42 +6,44 @@ import {
    Container, 
    Text, 
    Illustration,
-   NextPageBtn,
-   Pagination,
+   OptionBtn,
+   OptionBtnText,
 } from './styles';
-import { Feather } from '@expo/vector-icons';
 
-const Story = () => {
+const Script = () => {
    const [page, setPage] = useState(0);
 
    const { navigate } = useNavigation();
    const route = useRoute();
    const { pages } = route.params;
 
-   function nextPage(page_id) {
-      if (page_id === pages.length - 1){
-         navigate('Reward', { read: true });
+   function nextPage(option_id) {
+      if (pages[page].page_id === pages.length - 1){
+         navigate('Reward', { read: false });
          
       } else {
-         setPage(page + 1);
+         setPage(pages[page].options[option_id].next_page);
       }
    }
+
    return (
       <ScrollView showsVerticalScrollIndicator={false}>
          <Container>
             <Text>{pages[page].page_text}</Text>
             <Illustration />
 
-            <NextPageBtn onPress={() => nextPage(pages[page].page_id)}>
-               <Feather name="arrow-right" color="#fff" size={27} />
-            </NextPageBtn>
+            { pages[page].options.map((item) => (
+               <OptionBtn 
+                  key={item.option_id}
+                  onPress={() => nextPage(item.option_id - 1)}
+               >
+                  <OptionBtnText>{item.option_text}</OptionBtnText>
+               </OptionBtn>
+            ))}
 
-            <Pagination>
-               Página {page + 1} de {pages.length}
-            </Pagination>
          </Container>
       </ScrollView>
    );
 }
 
-export default Story;
+export default Script;

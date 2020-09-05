@@ -1,35 +1,48 @@
 import React from 'react';
-import { useRoute, useNavigation } from '@react-navigation/native';
+import { useNavigation, useRoute } from '@react-navigation/native';
 
 import PrimaryBtn from '../../components/PrimaryBtn';
 import StoryHomeLayout from '../../components/StoryHomeLayout';
 
 import { 
-   Synopsis,
-   Label,
-   Input,
+   Title,
+   Author,
+   Preview,
+   AgeContainer,
+   AgeContent,
+   Age
 } from './styles';
 
 const StoryHome = () => {
    const route = useRoute();
    const { navigate } = useNavigation();
 
-   const { script } = route.params;
+   const { story } = route.params;
 
-   const pages = script.pages;
+   const { pages } = story;
 
-   function handleNavigateToStory() {
-      navigate('Story', { pages });
+   function handleNavigateToHistory() {
+      navigate('Story', { pages })
    }
 
    return (
       <StoryHomeLayout>
-         <Synopsis>{script.synopsis}</Synopsis>
+         <AgeContainer>
+            <AgeContent>
+               <Age>7</Age>   
+            </AgeContent>
+         </AgeContainer>
+         <Title>{story.title}</Title>
+         <Author>{story.author}</Author>
 
-         <Label>Dê um nome para essa história</Label>
-         <Input placeholder="Seu título incrível" />
+         <Preview numberOfLines={4}>
+            {story.pages[0].page_text}
+         </Preview>
 
-         <PrimaryBtn text="Começar a aventura!" onPress={handleNavigateToStory} />
+         <PrimaryBtn 
+            onPress={handleNavigateToHistory}
+            text="Continuar lendo" 
+         />
       </StoryHomeLayout>
    );
 }

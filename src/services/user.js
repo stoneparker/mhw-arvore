@@ -15,7 +15,8 @@ const user = {
          goal_color: '#F27C73',
          goal_icon_path: require('../assets/two.png')
       },
-   ]
+   ],
+   scripts: [2, 3],
 }
 
 export default user;

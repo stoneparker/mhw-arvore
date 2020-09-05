@@ -18,7 +18,7 @@ export const Subtitle = styled.Text`
    font-family: Nunito_400Regular;
    font-size: 20px;
    text-align: center;
-   margin-bottom: 40px;
+   margin-bottom: 20px;
 `;
 
 export const Text = styled.Text`

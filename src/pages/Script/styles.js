@@ -21,15 +21,18 @@ export const Illustration = styled.View`
    margin-bottom: 30px;
 `;
 
-export const NextPageBtn = styled(RectButton)`
-   background: #F27C73;
-   justify-content: center;
+export const OptionBtn = styled(RectButton)`
+   width: 100%;
+   padding: 17px;
+   background: #F8B180;
    align-items: center;
-   padding: 20px;
    border-radius: 10px;
-   margin-bottom: 20px;
+   margin-bottom: 10px;
 `;
 
-export const Pagination = styled.Text`
+export const OptionBtnText = styled.Text`
+   font-size: 15px;
+   color: #3D3D3D;
+   text-align: center;
    font-family: Nunito_400Regular;
 `;

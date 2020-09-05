@@ -5,8 +5,11 @@ import { Feather } from '@expo/vector-icons';
 
 import Home from '../pages/Home';
 import Scripts from '../pages/Scripts';
+import YourStories from '../pages/YourStories';
 import StoryHome from '../pages/StoryHome';
+import ScriptHome from '../pages/ScriptHome';
 import Story from '../pages/Story';
+import Script from '../pages/Script';
 import Reward from '../pages/Reward';
 import Profile from '../pages/Profile';
 
@@ -48,8 +51,11 @@ const Routes = () => {
                }} 
             />
             <AppStack.Screen name="Scripts" component={Scripts} />
+            <AppStack.Screen name="YourStories" component={YourStories} />
             <AppStack.Screen name="StoryHome" component={StoryHome} />
+            <AppStack.Screen name="ScriptHome" component={ScriptHome} />
             <AppStack.Screen name="Story" component={Story} />
+            <AppStack.Screen name="Script" component={Script} />
             <AppStack.Screen name="Reward" component={Reward} options={{ headerShown: false }} />
             <AppStack.Screen name="Profile" component={Profile} />
          </AppStack.Navigator>

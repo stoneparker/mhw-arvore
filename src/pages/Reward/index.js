@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, useRoute } from '@react-navigation/native';
 
 import { 
    Container,
@@ -15,16 +15,24 @@ import PrimaryBtn from '../../components/PrimaryBtn';
 
 const Reward = () => {
    const { navigate } = useNavigation();
+   const route = useRoute();
+
+   const { read } = route.params;
 
    function handleNavigateToHome() {
-      navigate('Home')
+      navigate('Home');
    }
 
    return (
       <ScrollView showsVerticalScrollIndicator={false}>
          <Container>
             <Title>Parabéns</Title>
-            <Subtitle>Sua historia ficou maravilhosa! Você é incrivel nisso!</Subtitle>
+            <Subtitle>
+               { read ?
+                  'Sua historia ficou maravilhosa! Você é incrivel nisso!' :
+                  'Você leu mais uma história! Eba!'
+               }
+            </Subtitle>
 
             <Text>Você desbloqueou:</Text>
 
