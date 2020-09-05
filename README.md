@@ -14,10 +14,10 @@
 - **Vitória Lopes** - UI/UX e Desenvolvimento
 - **Safira Rosa** - Marketing e Business
 
+## 🔖 Layout
+Você pode visualizar nosso layout desenvolvido pelo Figma por [aqui](https://www.figma.com/proto/xCTqk8nbkRRv5joe0eAW8R/1%2C-2%2C-3...-Era-uma-vez!?node-id=1%3A2&scaling=scale-down).
+
 ## :rocket: Tecnologias
 - [React Native](https://reactnative.dev/)
 - [json-server](https://github.com/typicode/json-server)
 - [Expo](https://expo.io/)
-
-## 🔖 Layout
-Você pode visualizar nosso layout desenvolvido pelo Figma por [aqui](https://www.figma.com/proto/xCTqk8nbkRRv5joe0eAW8R/1%2C-2%2C-3...-Era-uma-vez!?node-id=1%3A2&scaling=scale-down).
