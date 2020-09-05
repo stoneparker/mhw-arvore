@@ -8,6 +8,7 @@ import Scripts from '../pages/Scripts';
 import StoryHome from '../pages/StoryHome';
 import Story from '../pages/Story';
 import Reward from '../pages/Reward';
+import Profile from '../pages/Profile';
 
 import HomeHeader from '../components/HomeHeader';
 import BtnHeader from '../components/BtnHeader';
@@ -20,7 +21,7 @@ const Routes = () => {
          <AppStack.Navigator screenOptions={{
             cardStyle: { backgroundColor: '#F3F3F3'},
             headerStyle: {
-               height: 120,
+               height: 100,
                elevation: 1
             },
             headerTitle: '',
@@ -41,12 +42,16 @@ const Routes = () => {
                   header: () => (
                      <HomeHeader />
                   ),
+                  headerStyle: {
+                     height: 120
+                  }
                }} 
             />
             <AppStack.Screen name="Scripts" component={Scripts} />
             <AppStack.Screen name="StoryHome" component={StoryHome} />
             <AppStack.Screen name="Story" component={Story} />
             <AppStack.Screen name="Reward" component={Reward} options={{ headerShown: false }} />
+            <AppStack.Screen name="Profile" component={Profile} />
          </AppStack.Navigator>
       </NavigationContainer>
 

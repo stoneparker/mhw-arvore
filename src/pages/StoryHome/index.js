@@ -2,11 +2,9 @@ import React from 'react';
 import { useRoute, useNavigation } from '@react-navigation/native';
 
 import PrimaryBtn from '../../components/PrimaryBtn';
+import StoryHomeLayout from '../../components/StoryHomeLayout';
 
 import { 
-   Container,
-   Cover,
-   Content,
    Synopsis,
    Label,
    Input,
@@ -25,17 +23,14 @@ const StoryHome = () => {
    }
 
    return (
-      <Container>
-         <Cover />
-         <Content>
-            <Synopsis>{script.synopsis}</Synopsis>
+      <StoryHomeLayout>
+         <Synopsis>{script.synopsis}</Synopsis>
 
-            <Label>Dê um nome para essa história</Label>
-            <Input placeholder="Seu título incrível" />
+         <Label>Dê um nome para essa história</Label>
+         <Input placeholder="Seu título incrível" />
 
-            <PrimaryBtn text="Começar a aventura!" onPress={handleNavigateToStory} />
-         </Content>
-      </Container>
+         <PrimaryBtn text="Começar a aventura!" onPress={handleNavigateToStory} />
+      </StoryHomeLayout>
    );
 }
 

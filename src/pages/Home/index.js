@@ -19,7 +19,7 @@ import {
 const Home = () => {
    const { navigate } = useNavigation();
 
-   function navigateToThemes() {
+   function navigateToScripts() {
       navigate('Scripts');
    }
 
@@ -30,7 +30,7 @@ const Home = () => {
       >
          <Container>
             <MainCardsContainer>
-               <MainCard color="#0097A7" onPress={navigateToThemes}>
+               <MainCard color="#0097A7" onPress={navigateToScripts}>
                   <MainCard1Img 
                      source={require('../../assets/pencil.png')} 
                      resizeMode="contain"
