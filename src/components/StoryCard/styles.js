@@ -32,13 +32,11 @@ export const Infos = styled.View`
 `;
 
 export const Title = styled.Text`
-   /* font-family: Ubuntu_400Regular; */
    font-size: 15px;
    color: #282828;
 `;
 
 export const Author = styled.Text`
-   /* font-family: Ubuntu_400Regular; */
    font-size: 13px;
    color: #9A9A9A;
 `;
@@ -70,4 +68,25 @@ export const OptionsText = styled.Text`
    margin-right: 13px;
    margin-top: -4px;
    font-size: 20px;
+`;
+
+export const Stars = styled.View`
+   margin-top: 7px;
+   flex-direction: row;
+   align-items: center;
+`;
+
+export const StarsText = styled.Text`
+   font-size: 12px;
+`;
+
+export const BtnDraft = styled.View`
+   background: #DD4211;
+   padding: 3px 5px;
+   border-radius: 4px;
+`;
+
+export const BtnDraftText = styled.Text`
+   font-size: 12px;
+   color: #fff;
 `;

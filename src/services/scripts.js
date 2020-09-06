@@ -1,9 +1,10 @@
 const scripts = [
    {
       id: 1,
-      description: 'Uma história de coragem e amor',
+      description: 'Uma história de amor e coragem',
       color_theme: '#1B9F97',
       image_path: require('../assets/warrior.png'),
+      image_cover: require('../assets/s2c.png'),
       tags: [
          {
             tag_name: 'Aventura',
@@ -14,6 +15,7 @@ const scripts = [
             tag_color: '#FFD0F5'
          }
       ],
+      average_pages: [5, 8],
       synopsis: 'Uma criança está se sentindo muito triste porque não tem amigos. Como seu cachorrinho pode ajudar?',
       pages: [
          {
@@ -122,7 +124,9 @@ const scripts = [
       id: 2,
       description: 'Uma história de amizade verdadeira',
       color_theme: '#FFDB1D',
+      image_cover: require('../assets/s2c.png'),
       image_path: require('../assets/dog.png'),
+      average_pages: [4, 6],
       tags: [
          {
             tag_name: 'Animais',
@@ -138,6 +142,7 @@ const scripts = [
          {
             page_id: 0,
             page_text: 'Era uma vez, um garotinho, João, que estava se sentindo muito triste, porque...',
+            page_image_path: require('../assets/s2p1.png'),
             options: [
                {
                   option_id: 1,
@@ -160,6 +165,7 @@ const scripts = [
          {
             page_id: 1,
             page_text: 'E então ele ficou extremamente triste vendo seu sorvete derrendo no chão. Então ele...',
+            page_image_path: require('../assets/s2p2.png'),
             options: [
                {
                   option_id: 1,
@@ -182,6 +188,7 @@ const scripts = [
          {
             page_id: 2,
             page_text: 'Ela sugeriu que fossem a um lugar chamado “Petshop” para adotar um animal de estimação e alagra-lo. Ele...',
+            page_image_path: require('../assets/s2p3.png'),
             options: [
                {
                   option_id: 1,
@@ -204,6 +211,7 @@ const scripts = [
          {
             page_id: 3,
             page_text: 'Já no petshop, o menino precisava decidir qual seria seu animal de estimação. Ele escolheu então...',
+            page_image_path: require('../assets/s2p4.png'),
             options: [
                {
                   option_id: 1,
@@ -226,6 +234,7 @@ const scripts = [
          {
             page_id: 4,
             page_text: 'Depois de escolher seu bichinho o menino ficou muito mais feliz e aprendeu que um verdadeiro amigo tem quatro patas.',
+            page_image_path: require('../assets/s2p5.png'),
             options: [
                {
                   option_id: 1,
@@ -242,6 +251,8 @@ const scripts = [
       description: 'Uma história de magia e suspense',
       color_theme: '#4D1B9F',
       image_path: require('../assets/wizard.png'),
+      image_cover: require('../assets/s2c.png'),
+      average_pages: [5, 8],
       tags: [
          {
             tag_name: 'Aventura',

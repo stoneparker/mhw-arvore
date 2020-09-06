@@ -8,6 +8,7 @@ import {
    Synopsis,
    Label,
    Input,
+   PagesAverage
 } from './styles';
 
 const StoryHome = () => {
@@ -23,8 +24,11 @@ const StoryHome = () => {
    }
 
    return (
-      <StoryHomeLayout>
+      <StoryHomeLayout cover={script.image_cover} color={script.color_theme}>
          <Synopsis>{script.synopsis}</Synopsis>
+         <PagesAverage>
+            (De {script.average_pages[0]} a {script.average_pages[1]} páginas)
+         </PagesAverage>
 
          <Label>Dê um nome para essa história</Label>
          <Input placeholder="Seu título incrível" />

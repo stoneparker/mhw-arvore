@@ -14,10 +14,9 @@ export const Text = styled.Text`
    margin-bottom: 15px;
 `;
 
-export const Illustration = styled.View`
+export const Illustration = styled.Image`
    width: 100%;
-   height: 200px;
-   background: #B6E7FC;
+   height: 250px;
    margin-bottom: 30px;
 `;
 

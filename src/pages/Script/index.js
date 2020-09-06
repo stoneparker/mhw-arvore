@@ -30,7 +30,7 @@ const Script = () => {
       <ScrollView showsVerticalScrollIndicator={false}>
          <Container>
             <Text>{pages[page].page_text}</Text>
-            <Illustration />
+            <Illustration source={pages[page].page_image_path} resizeMode="cover" />
 
             { pages[page].options.map((item) => (
                <OptionBtn 

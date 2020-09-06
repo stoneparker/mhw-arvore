@@ -38,7 +38,7 @@ const Profile = () => {
             </InfoBlock>
          </InfosContainer>
 
-         <Subtitle>Metas</Subtitle>
+         <Subtitle>Metas do dia</Subtitle>
 
          { user.goals.map((item) => (
             <Goal key={item.goal_id} color={item.goal_color}>

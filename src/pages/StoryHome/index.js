@@ -26,7 +26,7 @@ const StoryHome = () => {
    }
 
    return (
-      <StoryHomeLayout>
+      <StoryHomeLayout cover={story.image_cover} color={story.color_theme}>
          <AgeContainer>
             <AgeContent>
                <Age>7</Age>   

@@ -5,7 +5,7 @@ export const Synopsis = styled.Text`
    /* font-family: Ubuntu_400Regular; */
    font-size: 17px;
    color: #4A4A4A;
-   margin-bottom: 30px;
+   margin-bottom: 10px;
 `;
 
 export const Label = styled.Text`
@@ -22,4 +22,9 @@ export const Input = styled.TextInput`
    width: 100%;
    font-size: 15px;
    margin-bottom: 30px;
+`;
+
+export const PagesAverage = styled.Text`
+   margin-bottom: 20px;
+   color: #00000040;
 `;

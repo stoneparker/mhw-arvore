@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
+import { MaterialIcons } from '@expo/vector-icons';
 
 import user from '../../services/user';
 
@@ -14,6 +15,10 @@ import {
    Age,
    Options,
    OptionsText,
+   Stars,
+   StarsText,
+   BtnDraftText,
+   BtnDraft
 } from './styles';
 
 const StoryCard = (props) => {
@@ -21,7 +26,6 @@ const StoryCard = (props) => {
    const { story } = props;
 
    function navigateToStory(id) {
-      // alert('aaaaaaaaa');
       if (id === 3 || id === 5) navigate('StoryHome', { story });
    }
 
@@ -44,6 +48,21 @@ const StoryCard = (props) => {
             <Infos>
                <Title>{story.title}</Title>
                <Author>{story.author}</Author>
+               
+               { story.author_id === user.id ?
+                  <Stars>
+                     { story.completed ?
+                        <>
+                           <MaterialIcons name={'star'} size={20} color={'#FFC107'} />
+                           <StarsText>{ story.num_stars }</StarsText>
+                        </>
+                        : 
+                        <BtnDraft>
+                           <BtnDraftText>Rascunho</BtnDraftText>
+                        </BtnDraft>
+                     }
+                  </Stars>
+               : false }
             </Infos>
 
             <AgeContainer>

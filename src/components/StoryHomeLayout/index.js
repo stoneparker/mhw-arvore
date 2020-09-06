@@ -7,10 +7,10 @@ import {
    Content,
 } from './styles';
 
-const StoryHomeLayout = ({ children }) => {
+const StoryHomeLayout = ({ color, cover, children }) => {
   return (
-     <Container>
-        <Cover />
+     <Container color={color}>
+        <Cover source={cover} resizeMode="contain" />
         <Content>
             {children}
         </Content>

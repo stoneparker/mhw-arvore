@@ -30,7 +30,10 @@ const Story = () => {
       <ScrollView showsVerticalScrollIndicator={false}>
          <Container>
             <Text>{pages[page].page_text}</Text>
-            <Illustration />
+            <Illustration 
+               source={pages[page].page_image_path} 
+               resizeMode="contain"
+            />
 
             <NextPageBtn onPress={() => nextPage(pages[page].page_id)}>
                <Feather name="arrow-right" color="#fff" size={27} />

@@ -32,23 +32,28 @@ const stories = [
       author_id: 3,
       age: 7,
       color_theme: '#233F88',
+      image_cover: require('../assets/h3c.png'),
       image_path: require('../assets/monsters.png'),
       pages: [
          {
             page_id: 1,
             page_text: 'Um alienígena muito engraçado é deixado na terra e decide esperimentar comidas vermelhas. Primeiro ele escolhe uma maçã e da grande mordida nela',
+            page_image_path: require('../assets/h3p1.png'),
          },
          {
             page_id: 2,
             page_text: 'Depois ele escolheu uma cereja e experimentou com todo deleite. Era uma fruta com gosto ácido e doce ao mesmo tempo.',
+            page_image_path: require('../assets/h3p2.png'),
          },
          {
             page_id: 3,
             page_text: 'Por último ele escolheu os morangos. Para ele foi a fruta mais gostosa que comeu. Doce que combinava com tudo e deixava ele muito feliz.',
+            page_image_path: require('../assets/h3p3.png'),
          },
          {
             page_id: 4,
-            page_text: 'E assim o alienigina satisfeito entrou em sua nave e voltou para casa.\nFim!'
+            page_text: 'E assim o alienigina satisfeito entrou em sua nave e voltou para casa.\nFim!',
+            page_image_path: require('../assets/h3p4.png'),
          }
       ]
    },
@@ -70,6 +75,8 @@ const stories = [
       author_id: 4,
       age: 6,
       color_theme: '#FFDB1D',
+      completed: true,
+      num_stars: 0,
       image_path: require('../assets/dog.png'),
       pages: [
          {
@@ -97,7 +104,43 @@ const stories = [
             page_text: 'Depois de escolher seu bichinho o menino ficou muito mais feliz e aprendeu que um verdadeiro amigo tem quatro patas.',
          }
       ]
-   }
+   },
+
+   {
+      id: 6,
+      title: 'No fundo do mar',
+      author: 'Laura Silva',
+      author_id: 4,
+      age: 5,
+      completed: false,
+      num_stars: 0,
+      color_theme: '#33C8DC',
+      image_path: require('../assets/fish.png'),
+   },
+
+   {
+      id: 7,
+      title: 'Uma aventura na savana',
+      author: 'Laura Silva',
+      author_id: 4,
+      age: 5,
+      num_stars: 4,
+      completed: true,
+      color_theme: '#FFA843',
+      image_path: require('../assets/elephant.png'),
+   },
+
+   {
+      id: 8,
+      title: 'Um vampirinho camarada',
+      author: 'Laura Silva',
+      author_id: 4,
+      age: 7,
+      num_stars: 5,
+      completed: true,
+      color_theme: '#CE3838',
+      image_path: require('../assets/emoji.png'),
+   },
 ];
 
 export default stories;

@@ -16,6 +16,7 @@ const YourStories = () => {
       <Container>
          <FlatList 
             data={stories}
+            showsVerticalScrollIndicator={false}
             ListHeaderComponent={
                <Title>Suas histórias</Title>
             }

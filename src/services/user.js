@@ -6,18 +6,18 @@ const user = {
    goals: [
       {
          goal_id: 1,
-         goal_description: 'Faça um desenho.',
-         goal_color: '#F8B118',
+         goal_description: 'Faça um desenho de alguma história criada.',
+         goal_color: '#F27C73',
          goal_icon_path: require('../assets/dinosaur.png')
       },
       {
          goal_id: 2,
-         goal_description: 'Leia duas histórias.',
-         goal_color: '#F27C73',
-         goal_icon_path: require('../assets/two.png')
+         goal_description: 'Faça uma atividade em família.',
+         goal_color: '#0097A7',
+         goal_icon_path: require('../assets/heart.png')
       },
    ],
-   stories: [5],
+   stories: [5, 6, 7, 8],
 }
 
 export default user;

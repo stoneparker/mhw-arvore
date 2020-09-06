@@ -27,7 +27,6 @@ export default function App() {
     return <AppLoading />
   }
 
-
   return (
     <>
       <StatusBar style="auto" />

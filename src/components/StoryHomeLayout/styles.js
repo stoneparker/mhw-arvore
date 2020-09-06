@@ -2,13 +2,12 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
    flex: 1;
-   background: #FFDB1D;
+   background: ${props => props.color};
 `;
 
-export const Cover = styled.View`
+export const Cover = styled.Image`
    width: 100%;
    height: 35%;
-   background: #FFDB1D;
 `;
 
 export const Content = styled.View`

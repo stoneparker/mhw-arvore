@@ -28,7 +28,7 @@ export const Text = styled.Text`
 `;
 
 export const RewardContainer = styled.View`
-   background: #D92626;
+   background: ${props => props.color};
    padding: 30px;
    border-radius: 24px;
    align-items: center;

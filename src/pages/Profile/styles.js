@@ -19,7 +19,7 @@ export const InfosContainer = styled.View`
    padding: 20px 23px 13px;
    width: 100%;
    border-radius: 15px;
-   margin-bottom: 30px;
+   margin-bottom: 40px;
 `;
 
 export const InfoBlock = styled.Text`
@@ -35,7 +35,7 @@ export const Subtitle = styled.Text`
    font-family: FredokaOne_400Regular;
    color: #404040;
    font-size: 20px;
-   margin-bottom: 25px;
+   margin-bottom: 20px;
 `;
 
 export const Goal = styled.View`
@@ -46,7 +46,7 @@ export const Goal = styled.View`
    justify-content: space-between;
    align-items: center;
    border-radius: 15px;
-   margin-bottom: 20px;
+   margin-bottom: 15px;
 `;
 
 export const GoalImg = styled.Image`
