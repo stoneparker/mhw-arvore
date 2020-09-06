@@ -130,10 +130,10 @@ const scripts = [
          },
          {
             tag_name: 'Amizade',
-            tag_color: '#D0DDFF'
+            tag_color: '#B6E7FC'
          }
       ],
-      synopsis: 'Uma criança está se sentindo muito triste porque não tem amigos. Como seu cachorrinho pode ajudar?',
+      synopsis: 'Um menino fica extremamente triste por um acontecimento inesperado o que mais pode acontecer?',
       pages: [
          {
             page_id: 0,

@@ -1,7 +1,8 @@
 const user = {
-   name: 'Matheus Samuel',
-   age: 4,
-   email: 'maematheus@gmail.com',
+   id: 4,
+   name: 'Laura Silva',
+   age: 6,
+   email: 'maedalaura@gmail.com',
    goals: [
       {
          goal_id: 1,
@@ -16,7 +17,7 @@ const user = {
          goal_icon_path: require('../assets/two.png')
       },
    ],
-   scripts: [2, 3],
+   stories: [5],
 }
 
 export default user;

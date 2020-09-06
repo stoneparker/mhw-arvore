@@ -17,7 +17,7 @@ const ScriptCard = (props) => {
    function handleNavigateToScriptHome(id) {
       if (id === 2) navigate('ScriptHome', { script });
    }
-
+   
    if (!script) return false;
 
    else {

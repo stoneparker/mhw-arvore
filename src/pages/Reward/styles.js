@@ -48,3 +48,23 @@ export const RewardImage = styled.Image`
    width: 150px;
    height: 150px;
 `;
+
+export const CardStar = styled.View`
+   background: #fff;
+   elevation: 1;
+   padding: 20px;
+   margin-bottom: 20px;
+   border-radius: 13px;
+   flex-direction: row;
+   justify-content: space-between;
+`;
+
+export const CardStarText = styled.Text`
+   max-width: 200px;
+`;
+
+export const CardStarzinha = styled.TouchableOpacity`
+   align-items: center;
+   justify-content: center;
+   margin-left: 10px;
+`;

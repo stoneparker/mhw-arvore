@@ -60,3 +60,14 @@ export const Age = styled.Text`
    font-size: 20px;
    color: #525252;
 `;
+
+export const Options = styled.TouchableOpacity`
+   flex: 1;
+   flex-direction: row-reverse;
+`;
+
+export const OptionsText = styled.Text`
+   margin-right: 13px;
+   margin-top: -4px;
+   font-size: 20px;
+`;

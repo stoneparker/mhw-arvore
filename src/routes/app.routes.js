@@ -3,6 +3,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Feather } from '@expo/vector-icons';
 
+import AuthHome from '../pages/AuthHome';
+import SignIn from '../pages/SignIn';
+import SignUp from '../pages/SignUp';
 import Home from '../pages/Home';
 import Scripts from '../pages/Scripts';
 import YourStories from '../pages/YourStories';
@@ -38,6 +41,9 @@ const Routes = () => {
                </BtnHeader>
             )
          }}>
+            <AppStack.Screen name="AuthHome" component={AuthHome} options={{ headerShown: false }} />
+            <AppStack.Screen name="SignIn" component={SignIn} />
+            <AppStack.Screen name="SignUp" component={SignUp} />
             <AppStack.Screen 
                name="Home" 
                component={Home} 

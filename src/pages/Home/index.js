@@ -5,6 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import StoryCard from '../../components/StoryCard';
 
 import stories from '../../services/stories';
+import user from '../../services/user';
 
 import { 
    Container, 
@@ -18,6 +19,8 @@ import {
 
 const Home = () => {
    const { navigate } = useNavigation();
+
+   const stories_ids = user.stories;
 
    function navigateToScripts() {
       navigate('Scripts');
@@ -63,7 +66,7 @@ const Home = () => {
                numColumns={2}
                contentContainerStyle={{ padding: 10 }}
                renderItem={({ item }) => (
-                  <StoryCard story={item} />
+                  <StoryCard story={stories_ids.includes(item.id) ? false : item} />
                )}
             />
          </Container>
