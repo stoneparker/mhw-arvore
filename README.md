@@ -22,5 +22,4 @@ Os ícones utilizados nesse projeto pertecem à plataforma [FlatIcon](https://ww
 
 ## :rocket: Tecnologias
 - [React Native](https://reactnative.dev/)
-- [json-server](https://github.com/typicode/json-server)
 - [Expo](https://expo.io/)
