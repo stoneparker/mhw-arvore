@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, FlatList } from 'react-native';
+import { FlatList } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 import StoryCard from '../../components/StoryCard';
@@ -31,46 +31,42 @@ const Home = () => {
    }
 
    return (
-      <ScrollView 
-         style={{ flex: 1 }}
+      <FlatList 
+         data={stories}
+         style={{ marginHorizontal: 5 }}
+         ListHeaderComponent={
+            <Container>
+               <MainCardsContainer>
+                  <MainCard color="#0097A7" onPress={navigateToScripts}>
+                     <MainCard1Img 
+                        source={require('../../assets/pencil.png')} 
+                        resizeMode="contain"
+                     />
+                     <MainCardTitle>
+                        Crie uma história!
+                     </MainCardTitle>
+                  </MainCard>
+                  <MainCard color="#F27C73" onPress={navigateToYourStories}>
+                     <MainCardTitle>
+                        Suas histórias
+                     </MainCardTitle>
+                     <MainCard2Img 
+                        source={require('../../assets/books.png')} 
+                        resizeMode="contain"
+                     />
+                  </MainCard>
+               </MainCardsContainer>
+               <SessionTitle>Outras histórias</SessionTitle>
+            </Container>
+         }
          showsVerticalScrollIndicator={false}
-      >
-         <Container>
-            <MainCardsContainer>
-               <MainCard color="#0097A7" onPress={navigateToScripts}>
-                  <MainCard1Img 
-                     source={require('../../assets/pencil.png')} 
-                     resizeMode="contain"
-                  />
-                  <MainCardTitle>
-                     Crie uma história!
-                  </MainCardTitle>
-               </MainCard>
-               <MainCard color="#F27C73" onPress={navigateToYourStories}>
-                  <MainCardTitle>
-                     Suas histórias
-                  </MainCardTitle>
-                  <MainCard2Img 
-                     source={require('../../assets/books.png')} 
-                     resizeMode="contain"
-                  />
-               </MainCard>
-            </MainCardsContainer>
-
-            <SessionTitle>Outras histórias</SessionTitle>
-
-            <FlatList 
-               data={stories}
-               style={{ marginHorizontal: 5 }}
-               keyExtractor={story => String(story.id)}
-               numColumns={2}
-               contentContainerStyle={{ padding: 10 }}
-               renderItem={({ item }) => (
-                  <StoryCard story={stories_ids.includes(item.id) ? false : item} />
-               )}
-            />
-         </Container>
-      </ScrollView>
+         keyExtractor={story => String(story.id)}
+         numColumns={2}
+         contentContainerStyle={{ padding: 10 }}
+         renderItem={({ item }) => (
+            <StoryCard story={stories_ids.includes(item.id) ? false : item} />
+         )}
+      />
    );
 }
 

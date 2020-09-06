@@ -75,6 +75,7 @@ const stories = [
       author_id: 4,
       age: 6,
       color_theme: '#FFDB1D',
+      image_cover: require('../assets/s2c.png'),
       completed: true,
       num_stars: 0,
       image_path: require('../assets/dog.png'),
@@ -82,26 +83,27 @@ const stories = [
          {
             page_id: 1,
             page_text: 'Era uma vez, um garotinho, João, que estava se sentindo muito triste, porque deixou seu sorvete cair no chão.',
+            page_image_path: require('../assets/s2p1.png'),
          },
          {
             page_id: 2,
             page_text: 'E então ele ficou extremamente triste vendo seu sorvete derrendo no chão. Então ele foi falar com sua mãe.',
+            page_image_path: require('../assets/s2p2.png'),
          },
          {
             page_id: 3,
-            page_text: 'Por último ele escolheu os morangos. Para ele foi a fruta mais gostosa que comeu. Doce que combinava com tudo e deixava ele muito feliz.',
+            page_text: 'Ela sugeriu que fossem a um lugar chamado “Petshop” para adotar um animal de estimação e alagra-lo. Ele concordou em ir.',
+            page_image_path: require('../assets/s2p3.png'),
          },
          {
             page_id: 4,
-            page_text: 'Ela sugeriu que fossem a um lugar chamado “Petshop” para adotar um animal de estimação e alagra-lo. Ele concordou em ir.'
+            page_text: 'Já no petshop, o menino precisava decidir qual seria seu animal de estimação. Ele escolheu então um cachorro',
+            page_image_path: require('../assets/s2p4.png'),
          },
          {
             page_id: 5,
-            page_text: 'Já no petshop, o menino precisava decidir qual seria seu animal de estimação. Ele escolheu então um cachorro',
-         },
-         {
-            page_id: 6,
             page_text: 'Depois de escolher seu bichinho o menino ficou muito mais feliz e aprendeu que um verdadeiro amigo tem quatro patas.',
+            page_image_path: require('../assets/s2p5.png'),
          }
       ]
    },

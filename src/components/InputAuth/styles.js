@@ -15,4 +15,5 @@ export const Input = styled.TextInput`
    padding: 7px 10px;
    border: 1px solid #ccc;
    border-radius: 8px;
+   font-size: 17px;
 `;

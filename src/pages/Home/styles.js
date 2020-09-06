@@ -2,7 +2,9 @@ import styled from 'styled-components/native';
 import { RectButton } from 'react-native-gesture-handler';
 
 export const Container = styled.View`
-   padding: 40px 0px 40px;
+   /* padding: 40px 0px 40px; */
+   margin: -10px;
+   margin-top: 20px;
    flex: 1;
 `;
 
@@ -51,6 +53,6 @@ export const SessionTitle = styled.Text`
    font-family: FredokaOne_400Regular;
    font-size: 25px;
    color: #404040;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
    margin-left: 30px;
 `;

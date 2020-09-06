@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 
 import { 
    Container,
@@ -9,12 +9,17 @@ import {
 
 const StoryHomeLayout = ({ color, cover, children }) => {
   return (
-     <Container color={color}>
-        <Cover source={cover} resizeMode="contain" />
-        <Content>
-            {children}
-        </Content>
-     </Container>
+     <ScrollView 
+      showsVerticalScrollIndicator={false} 
+      style={{ backgroundColor: '#fff' }}
+   >
+      <Container color={color}>
+         <Cover source={cover} resizeMode="contain" />
+         <Content>
+               {children}
+         </Content>
+      </Container>
+     </ScrollView>
   );
 }
 

@@ -33,7 +33,7 @@ const Reward = () => {
 
    return (
       <ScrollView showsVerticalScrollIndicator={false}>
-         <StatusBar style="dark" />
+         <StatusBar style="dark" backgroundColor="#f3f3f3" />
          <Container>
             <Title>Parabéns</Title>
             <Subtitle>

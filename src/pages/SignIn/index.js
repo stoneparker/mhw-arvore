@@ -25,8 +25,8 @@ const SignIn = () => {
         <Title>Olá!{'\n'}Vamos ler e criar historias?</Title>
         <Logo source={require('../../assets/logo.png')} resizeMode="cover" />
         <Card>
-          <InputAuth label="E-mail do responsável" />
-          <InputAuth label="Senha" />
+          <InputAuth label="E-mail do responsável" keyboardType="email-address" />
+          <InputAuth label="Senha" secureTextEntry={true} />
           <BtnAuth text="Entrar" onPress={handleSignIn} />
         </Card>
       </Container>

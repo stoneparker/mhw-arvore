@@ -61,6 +61,7 @@ export const CardStar = styled.View`
 
 export const CardStarText = styled.Text`
    max-width: 200px;
+   font-family: Nunito_400Regular;
 `;
 
 export const CardStarzinha = styled.TouchableOpacity`

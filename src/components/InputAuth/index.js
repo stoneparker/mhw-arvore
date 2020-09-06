@@ -11,7 +11,7 @@ const InputAuth = (props) => {
   return (
      <Container>
         <Label>{props.label}</Label>
-        <Input />
+        <Input secureTextEntry={props.secureTextEntry} keyboardType={props.keyboardType ? props.keyboardType : 'default'} />
      </Container>
   );
 }

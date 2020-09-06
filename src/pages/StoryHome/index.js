@@ -29,7 +29,7 @@ const StoryHome = () => {
       <StoryHomeLayout cover={story.image_cover} color={story.color_theme}>
          <AgeContainer>
             <AgeContent>
-               <Age>7</Age>   
+               <Age>{story.age}</Age>   
             </AgeContent>
          </AgeContainer>
          <Title>{story.title}</Title>

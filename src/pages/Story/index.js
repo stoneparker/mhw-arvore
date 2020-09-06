@@ -19,7 +19,7 @@ const Story = () => {
    const { pages } = route.params;
 
    function nextPage(page_id) {
-      if (page_id === pages.length - 1){
+      if (page_id === pages.length){
          navigate('Reward', { read: true });
          
       } else {
