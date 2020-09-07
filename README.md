@@ -3,6 +3,11 @@
 </h1>
 
 <p align="center">
+ <img src="https://img.shields.io/static/v1?label=framework&message=react-native&color=61DAFB&labelColor=3E555B" alt="" />
+  <img src="https://img.shields.io/static/v1?label=tech&message=frontend&color=7159c1&labelColor=3E555B">
+</p>
+
+<p align="center">
   <a href="#-o-projeto">O Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-nossa-equipe">Nossa equipe</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -22,7 +27,7 @@ Na plataforma, o público infantil interage através da criação de suas própr
 - UI/UX - [Lívia Rodrigues](https://www.linkedin.com/in/l%C3%ADvia-rodrigues-1043631b4/)
 - Negócios - [Barbara Abi](https://www.linkedin.com/in/barbara-abi/)
 - Desenvolvimento - [Vitória Lopes](https://www.linkedin.com/in/vitorialopesdiogo/)
-- Marketing - Safira Rosa
+- Marketing - [Safira Rosa](https://www.linkedin.com/in/safira-rosa-760106197)
 
 ## 🔖 Layout
 Você pode visualizar nosso layout desenvolvido pelo Figma por [aqui](https://www.figma.com/file/xCTqk8nbkRRv5joe0eAW8R/1-2-3...-Era-uma-vez?node-id=0%3A1).
