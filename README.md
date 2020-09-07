@@ -15,8 +15,8 @@
 </p>
 
 ## 🎯 O Projeto
-**1, 2, 3... Era uma vez!** foi desenvolvido no [Mega Hack Women](https://www.megahackwomen.com.br/) com o objetivo de ajudar crianças de 5 a 9 anos a exercitar a leitura desenvolvendo sua imaginação de uma forma divertida para o pequeno leitor e sua família, com sugestões de atividades que permitem a participação de toda a casa nesse processo de aprendizagem.
-No aplicativo, a criança interage exercitando a imaginação através da criação de suas próprias histórias a partir da escolha de nomes, temas, ações e roteiros, além de ter acesso à histórias compartilhadas de outras crianças para ler - nesse espaço, a criança aprende brincando.
+ **1, 2, 3... Era uma vez!** foi desenvolvido no [Mega Hack Women](https://www.megahackwomen.com.br/) com o objetivo de ajudar crianças de 5 a 9 anos a exercitar a leitura desenvolvendo sua imaginação de uma forma divertida para o pequeno leitor e sua família, com sugestões de atividades que permitem a participação de toda a casa nesse processo de aprendizagem.<br>
+No aplicativo, a criança interage exercitando a imaginação através da criação de suas próprias histórias a partir da escolha de nomes, temas, ações e roteiros, além de ter acesso à histórias compartilhadas de outras crianças para ler - nesse espaço, a criança aprende brincando.<br>
 Os pequenos podem se manter praticando a leitura de histórias feitas para suas respectivas idades acompanhando os textos, descobrindo novos caminhos para suas historinhas e desbloqueando novos roteiros dentro do aplicativo para criar cada vez mais, sempre recebendo mensagens de estímulo ao terminar de desenvolver ou ler alguma história, motivando-o a continuar praticando a leitura.
 
 ## 👥 Nossa equipe
