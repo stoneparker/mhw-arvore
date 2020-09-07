@@ -2,9 +2,12 @@
   <img alt="BeTheHero" src=".github/logo.png" width="30%">
 </h1>
 
-<h4 align="center">
-  🚀 Desafio Árvore - Mega Hack Women
-</h4>
+<p align="center">
+  <a href="#-o-projeto">O Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-nossa-equipe">Nossa equipe</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>
+</p>
 
 <p align="center">
   <img alt="BeTheHero" src=".github/home.png" width="30%">
@@ -14,7 +17,7 @@
 ## 🎯 O Projeto
 **1, 2, 3... Era uma vez!** foi desenvolvido no [Mega Hack Women](https://www.megahackwomen.com.br/) com o objetivo de ajudar crianças de 5 a 9 anos a exercitar a leitura desenvolvendo sua imaginação de uma forma divertida para o pequeno leitor e sua família, com sugestões de atividades que permitem a participação de toda a casa nesse processo de aprendizagem.
 
-## 👯‍♂️ Nossa equipe
+## 👥 Nossa equipe
 - **Lívia Rodrigues** - UI/UX
 - **Barbara Abi** - Negócios
 - **Vitória Lopes** - Desenvolvimento
