@@ -1,4 +1,10 @@
-<h1 align="center">1, 2, 3... Era uma vez!</h1>
+<h1 align="center">
+  <img alt="BeTheHero" src=".github/logo.png" width="30%">
+</h1>
+
+<h4 align="center">
+  🚀 Desafio Árvore - Mega Hack Women
+</h4>
 
 <p align="center">
   <img alt="BeTheHero" src=".github/home.png" width="30%">
