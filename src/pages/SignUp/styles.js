@@ -4,7 +4,7 @@ export const Container = styled.View`
    flex: 1;
    justify-content: center;
    align-items: center;
-   padding: 40px 20px;
+   padding: 40px 10px;
 `;
 
 export const Title = styled.Text`
@@ -12,12 +12,12 @@ export const Title = styled.Text`
    font-size: 25px;
    text-align: center;
    color: #2E2E2E;
-   margin-bottom: 30px;
+   margin: 0 30px 30px;
 `;
 
 export const Logo = styled.Image`
-   width: 100px;
-   height: 100px;
+   width: 150px;
+   height: 150px;
    margin-bottom: 30px;
 `;
 

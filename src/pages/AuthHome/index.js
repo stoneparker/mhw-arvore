@@ -25,8 +25,9 @@ const AuthHome = () => {
   return (
     <Container>
       <Content>
-        <Title>1, 2, 3...{'\n'}Era uma vez!</Title>
-        <Subtitle>Sua fábrica de histórias</Subtitle>
+        <Title>Seja bem-vinde à fábrica de histórias</Title>
+        {/* <Subtitle>Sua fábrica de histórias</Subtitle> */}
+        
 
         <Logo source={require('../../assets/logo.png')} resizeMode="contain" />
 

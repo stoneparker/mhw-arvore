@@ -4,6 +4,7 @@ export const Container = styled.View`
    flex: 1;
    justify-content: center;
    align-items: center;
+   padding: 0 30px;
 `;
 
 export const Content = styled.View`
@@ -15,7 +16,7 @@ export const Title = styled.Text`
    font-size: 30px;
    text-align: center;
    color: #2E2E2E;
-   margin-bottom: 10px;
+   margin-bottom: 30px;
 `;
 
 export const Subtitle = styled.Text`
@@ -26,7 +27,7 @@ export const Subtitle = styled.Text`
 `;
 
 export const Logo = styled.Image`
-   width: 160px;
-   height: 160px;
-   margin-bottom: 40px;
+   width: 200px;
+   height: 200px;
+   margin-bottom: 30px;
 `;

@@ -22,7 +22,7 @@ const SignUp = () => {
   return (
     <ScrollView showsVerticalScrollIndicator={false}>
       <Container>
-        <Title>Olá!{'\n'}Vamos ler e criar historias?</Title>
+        <Title>Crie um perfil e vamos ler e criar historias juntos</Title>
         <Logo source={require('../../assets/logo.png')} resizeMode="cover" />
         <Card>
           <InputAuth label="E-mail do responsável" />

@@ -21,7 +21,7 @@ const HomeHeader = () => {
          </BtnHeader>
             <Image 
                source={require('../../assets/logo.png')}
-               style={{ width: 60, height: 60 }} 
+               style={{ width: 75, height: 75 }} 
                resizeMode="contain" 
             />
          <BtnHeader color="#F8B180" onPress={navigateToProfile}>
