@@ -18,10 +18,10 @@
 **1, 2, 3... Era uma vez!** foi desenvolvido no [Mega Hack Women](https://www.megahackwomen.com.br/) com o objetivo de ajudar crianças de 5 a 9 anos a exercitar a leitura desenvolvendo sua imaginação de uma forma divertida para o pequeno leitor e sua família, com sugestões de atividades que permitem a participação de toda a casa nesse processo de aprendizagem.
 
 ## 👥 Nossa equipe
-- **Lívia Rodrigues** - UI/UX
-- **Barbara Abi** - Negócios
-- **Vitória Lopes** - Desenvolvimento
-- **Safira Rosa** - Marketing
+- UI/UX - [Lívia Rodrigues](https://www.linkedin.com/in/l%C3%ADvia-rodrigues-1043631b4/)
+- Negócios - [Barbara Abi](https://www.linkedin.com/in/barbara-abi/)
+- Desenvolvimento - [Vitória Lopes](https://www.linkedin.com/in/vitorialopesdiogo/)
+- Marketing - Safira Rosa
 
 ## 🔖 Layout
 Você pode visualizar nosso layout desenvolvido pelo Figma por [aqui](https://www.figma.com/file/xCTqk8nbkRRv5joe0eAW8R/1-2-3...-Era-uma-vez?node-id=0%3A1).
