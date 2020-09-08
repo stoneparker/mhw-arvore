@@ -4,7 +4,7 @@
 
 <p align="center">
  <img src="https://img.shields.io/static/v1?label=framework&message=react-native&color=61DAFB&labelColor=3E555B" alt="" />
-  <img src="https://img.shields.io/static/v1?label=tech&message=frontend&color=7159c1&labelColor=3E555B">
+  <img src="https://img.shields.io/static/v1?label=platform&message=mobile&color=7159c1&labelColor=3E555B">
 </p>
 
 <p align="center">
