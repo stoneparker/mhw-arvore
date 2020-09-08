@@ -23,6 +23,10 @@
 **1, 2, 3... Era uma vez!** é um aplicativo para dispositivos móveis que tem o objetivo de ajudar crianças de 5 a 9 anos a praticar a leitura. Desenvolvendo sua imaginação de uma forma divertida, o pequeno leitor recebe sugestões de atividades que permitem a participação de toda a família nesse processo de aprendizagem.<br>
 Na plataforma, o público infantil interage através da criação de suas próprias histórias, podendo escolher nomes, temas, ações e roteiros, além de ter acesso a histórias compartilhadas de outras crianças para ler. Nesse espaço, a criança aprende brincando.
 
+### Saiba mais
+**Vídeo Pitch:** https://www.youtube.com/watch?v=s5o1P3J-kbY&feature=youtu.be <br>
+**Vídeo Demo:** https://www.youtube.com/watch?v=ejO3OENYN_w&feature=youtu.be
+
 ## 👥 Nossa equipe
 - UI/UX - [Lívia Rodrigues](https://www.linkedin.com/in/l%C3%ADvia-rodrigues-1043631b4/)
 - Negócios - [Barbara Abi](https://www.linkedin.com/in/barbara-abi/)
